@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+const program = require('commander')
+const namedFunction = require('../src/named-function')
+const anonymousFunction = require('../src/anonymous-function')
+
+program
+  .version('1.0.0')
+  .option('-n, --named', 'throw error inside a named function')
+  .option('-a, --anonymous', 'throw error inside an anonymous function')
+  .parse(process.argv)
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp()
+}
+if (program.anonymous) {
+  console.log(anonymousFunction)
+  anonymousFunction()
+}
+if (program.named) {
+  console.log(namedFunction)
+  namedFunction()
+}
