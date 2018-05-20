@@ -1,6 +1,6 @@
 {
   "name": "module-exports-functions",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Test anonymous and named functions",
   "repository": "https://github.com/bramkok/module-exports-functions",
   "author": "Bram Kok <bramkok.com>",
