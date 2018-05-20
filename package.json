@@ -1,0 +1,10 @@
+{
+  "name": "module-exports-anonymous-func",
+  "version": "1.0.0",
+  "description": "A module that exports an anonymous function",
+  "main": "index.js",
+  "repository": "https://github.com/bramkok/module-exports-anonymous-func",
+  "author": "Bram Kok <bramkok.com>",
+  "license": "MIT",
+  "private": false
+}
