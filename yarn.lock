@@ -339,9 +339,9 @@ eslint-config-airbnb-base@12.1.0:
   dependencies:
     eslint-restricted-globals "^0.1.1"
 
-eslint-config-bramkok@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-bramkok/-/eslint-config-bramkok-0.2.0.tgz#a67d39ac77b02c4878dd880f3cff1f2c53ed00e7"
+eslint-config-bramkok@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-bramkok/-/eslint-config-bramkok-1.0.0.tgz#8a0ef3561a4554a7ac3774ffca21577097d833e1"
 
 eslint-config-prettier@2.9.0:
   version "2.9.0"
